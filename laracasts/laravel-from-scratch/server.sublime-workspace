@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"incl",
+				"includeClassTag"
+			],
+			[
+				"broder",
+				"border-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"tabl",
+				"table-row"
+			],
+			[
+				"tb",
+				"table-cell"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Nivade/Documents/GitHub/project/server.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/include/head.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/index.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/styles/style.less",
+		"/C/xampp/htdocs/schietclub-doelbewust/include/nav.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/wedstrijden.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/info.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/uitslagen.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/contact.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/disciplines.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/evenementen.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/historie.php",
+		"/C/xampp/htdocs/schietclub-doelbewust/styles/style.css",
+		"/C/xampp/htdocs/schietclub-doelbewust/include/nav.html",
+		"/C/Program Files (x86)/Git/ReleaseNotes.html",
+		"/C/xampp/htdocs/schietclub-doelbewust/README.md",
+		"/C/xampp/htdocs/schietclub-doelbewust/nav.html",
+		"/C/Users/Nivade/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb",
+		"/C/xampp/htdocs/Doelbewust/disciplines.php",
+		"/C/xampp/htdocs/Doelbewust/evenementen.php",
+		"/C/xampp/htdocs/Doelbewust/style.css",
+		"/C/xampp/htdocs/Doelbewust/wedstrijden.php",
+		"/C/xampp/htdocs/Doelbewust/contact.php",
+		"/C/xampp/htdocs/Doelbewust/info.php",
+		"/C/xampp/htdocs/Doelbewust/index.php",
+		"/C/xampp/htdocs/Doelbewust/uitslagen.php",
+		"/C/xampp/htdocs/Doelbewust/nav.html",
+		"/C/Users/Nivade/Documents/GitHub/grayscale-sass/index.html",
+		"/C/Users/Nivade/Documents/GitHub/grayscale-sass/styles/main.css",
+		"/C/Program Files/Git/ReleaseNotes.html",
+		"/C/Users/Nivade/Documents/GitHub/portfolio/app/assets/javascripts/cable.coffee",
+		"/C/Users/Nivade/Desktop/workspace/sample_app/app/views/layouts/application.html.erb",
+		"/C/Users/Nivade/Dropbox/Doelbewust/Doelbewust/nav.html",
+		"/C/Users/Nivade/Documents/GitHub/grayscale-sass/js/main.js",
+		"/C/Users/Nivade/Documents/GitHub/grayscale-sass/assets/js/grayscale.js",
+		"/C/Users/Nivade/Documents/GitHub/startbootstrap-freelancer/js/freelancer.js",
+		"/C/Users/Nivade/Documents/GitHub/startbootstrap-freelancer/index.html",
+		"/C/Users/Nivade/Documents/GitHub/startbootstrap-freelancer/css/freelancer.css",
+		"/C/Users/Nivade/Documents/GitHub/startbootstrap-freelancer/js/jqBootstrapValidation.js",
+		"/C/Users/Nivade/Documents/GitHub/startbootstrap-freelancer/less/freelancer.less",
+		"/C/Users/Nivade/Documents/GitHub/startbootstrap-freelancer/less/variables.less",
+		"/C/xampp/htdocs/kadmin/styles/nestable.css",
+		"/C/Users/Nivade/Documents/GitHub/startbootstrap-freelancer/less/mixins.less",
+		"/C/xampp/htdocs/kadmin/styles/main.css",
+		"/C/xampp/htdocs/kadmin/styles/style-responsive.css",
+		"/C/xampp/htdocs/kadmin/index.html",
+		"/C/xampp/htdocs/startbootstrap-stylish-portfolio-1.0.4/css/stylish-portfolio.css",
+		"/C/xampp/htdocs/startbootstrap-stylish-portfolio-1.0.4/index.html",
+		"/C/xampp/htdocs/kadmin/dashboard.html",
+		"/C/Users/Nivade/Documents/GitHub/bootstrap/less/alerts.less",
+		"/C/Users/Nivade/Desktop/test.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Nivade\\Documents\\GitHub\\startbootstrap-freelancer\\js",
+			"C:\\Users\\Nivade\\Documents\\GitHub\\startbootstrap-freelancer\\css",
+			"C:\\xampp\\htdocs\\kadmin\\styles"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	<",
+			"IncludeClassOnClick",
+			"nav.html",
+			"<",
+			"jpg",
+			"png",
+			"BEDRAG",
+			"\".index\"",
+			".index",
+			"topbar-user",
+			"icon-bar",
+			"navbar",
+			"badge",
+			"body",
+			".body",
+			"header-topbar-option-demo",
+			"#header-top",
+			".caret",
+			"topbar-main",
+			"#topbar-main",
+			"#topbar",
+			"topbar-main",
+			"hidden-xs",
+			"navbar navbar-default navbar-static-top",
+			"logo-text-icon",
+			"navbar-header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"IncludeIfActive",
+			"png",
+			"jpg"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "server.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
