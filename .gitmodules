@@ -1,6 +1,8 @@
 [submodule "udemy"]
 	path = udemy
 	url = git://github.com/Nivade/tutorial-files.git
+	branch = udemy
 [submodule "laracasts"]
 	path = laracasts
 	url = git://github.com/Nivade/tutorial-files.git
+	branch = laracasts
