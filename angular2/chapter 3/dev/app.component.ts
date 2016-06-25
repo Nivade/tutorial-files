@@ -3,14 +3,14 @@ import {Component} from 'angular2/core';
 @Component({
     selector: 'my-app',
     template: `
-        {{onTest()}}
-        <input type="text" value="{{name}}">
+        <input type="text" (keyup)="onKeyUp(inputElement.value)" #inputElement>
+        <p>{{values}}</p>
     `,
 })
 export class AppComponent {
-    name = 'Niels';
-    onTest() {
-        return 1 === 1;
-    }
+    values = '';
 
+    onKeyUp(value: string) {
+        this.values += value + ' | ';
+    }
 }
