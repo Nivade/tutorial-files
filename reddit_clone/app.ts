@@ -2,22 +2,29 @@ import { bootstrap } from '@angular/platform-browser-dynamic';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'hello-world',
+  selector: 'reddit',
   template: `
-  <ul>
-    <li *ngFor="let name of names">Hello {{ name }}</li>
-  </ul>
+  <form class="ui large form segment">
+    <h3 class="ui header">Add a Link</h3>
+
+    <div class="field">
+      <label for="title">Title:</label>
+      <input name="title">
+    </div>
+    <div class="field">
+      <label for="link">Link:</label>
+      <input name="link">
+    </div>
+  </form>
   `
 })
 
-class HelloWorld {
-
-  names: string[];
+class RedditApp {
 
   constructor() {
-    this.names = ['Niels', 'Harrie'];
+
   }
 
 }
 
-bootstrap(HelloWorld);
+bootstrap(RedditApp);
