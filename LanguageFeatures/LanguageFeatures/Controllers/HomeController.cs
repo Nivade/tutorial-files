@@ -162,5 +162,49 @@ namespace LanguageFeatures.Controllers
 
             return View("Result", (object) $"Cart total: {cartTotal}, Array total: {arrayTotal}");
         }
+
+
+
+        public ViewResult UseFilterExtensionMethod()
+        {
+            IEnumerable<Product> products = new ShoppingCart
+            {
+                Products = new List<Product>
+                {
+                    new Product
+                    {
+                        Name = "Kayak",
+                        Category = "Watersports",
+                        Price = 275m
+                    },
+                    new Product
+                    {
+                        Name = "Lifejacket",
+                        Category = "Watersports",
+                        Price = 48.95m
+                    },
+                    new Product
+                    {
+                        Name = "Soccer Ball",
+                        Category = "Soccer",
+                        Price = 19.50m
+                    },
+                    new Product
+                    {
+                        Name = "Corner flag",
+                        Category = "Soccer",
+                        Price = 34.95m
+                    }
+                }
+            };
+
+            decimal total = 0;
+            foreach (Product product in products.FilterByCategory("Soccer"))
+            {
+                total += product.Price;
+            }
+
+            return View("Result", (object) $"Total: {total}");
+        }
     }
 }
