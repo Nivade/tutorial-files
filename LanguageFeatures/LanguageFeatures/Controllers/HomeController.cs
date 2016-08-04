@@ -42,7 +42,7 @@ namespace LanguageFeatures.Controllers
                 Category = "Watersports"
             };
 
-            return View("Result", (object)$"Category name: {myProduct.Category}");
+            return View("Result", (object)$"Category: {myProduct.Category}");
         }
     }
 }
