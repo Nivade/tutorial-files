@@ -8,10 +8,10 @@ namespace LanguageFeatures.Models
     public static class MyExtensionMethods
     {
 
-        public static decimal TotalPrices(this ShoppingCart cartParam)
+        public static decimal TotalPrices(this IEnumerable<Product> productEnum)
         {
             decimal total = 0;
-            foreach (Product p in cartParam.Products)
+            foreach (Product p in productEnum)
                 total += p.Price;
             return total;
         }
