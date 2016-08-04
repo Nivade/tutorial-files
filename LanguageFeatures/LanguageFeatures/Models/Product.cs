@@ -10,7 +10,14 @@ namespace LanguageFeatures.Models
         public int ProductID { get; set; }
 
 
-        public string Name { get; set; }
+        private string name;
+
+
+        public string Name
+        {
+            get { return ProductID + name; }
+            set { name = value; }
+        }
 
 
         public string Description { get; set; }
