@@ -101,5 +101,66 @@ namespace LanguageFeatures.Controllers
 
             return View("Result", (object) $"Total: {cartTotal}");
         }
+
+
+
+        public ViewResult UseExtensionEnumerable()
+        {
+            IEnumerable<Product> products = new ShoppingCart
+            {
+                Products = new List<Product>
+                {
+                    new Product
+                    {
+                        Name = "Kayak",
+                        Price = 275m
+                    },
+                    new Product
+                    {
+                        Name = "Lifejacket",
+                        Price = 48.95m
+                    },
+                    new Product
+                    {
+                        Name = "Soccer Ball",
+                        Price = 19.50m
+                    },
+                    new Product
+                    {
+                        Name = "Corner flag",
+                        Price = 34.95m
+                    }
+                }
+            };
+
+            Product[] productArray =
+            {
+                new Product
+                {
+                    Name = "Kayak",
+                    Price = 275m
+                },
+                new Product
+                {
+                    Name = "Lifejacket",
+                    Price = 48.95m
+                },
+                new Product
+                {
+                    Name = "Soccer Ball",
+                    Price = 19.50m
+                },
+                new Product
+                {
+                    Name = "Corner flag",
+                    Price = 34.95m
+                }
+            };
+
+            decimal cartTotal = products.TotalPrices();
+            decimal arrayTotal = productArray.TotalPrices();
+
+            return View("Result", (object) $"Cart total: {cartTotal}, Array total: {arrayTotal}");
+        }
     }
 }
