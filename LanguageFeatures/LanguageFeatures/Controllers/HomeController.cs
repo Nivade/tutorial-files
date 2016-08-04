@@ -20,6 +20,19 @@ namespace LanguageFeatures.Controllers
 
         public ViewResult AutoProperty()
         {
+            Product myProduct = new Product();
+
+            myProduct.Name = "Kayak";
+
+            string productName = myProduct.Name;
+
+            return View("Result", (object) $"Product name: {productName}");
+        }
+
+
+
+        public ViewResult CreateProduct()
+        {
             Product myProduct = new Product
             {
                 ProductID = 100,
@@ -29,7 +42,7 @@ namespace LanguageFeatures.Controllers
                 Category = "Watersports"
             };
 
-            return View("Result", (object) $"Category name: {myProduct.Category}");
+            return View("Result", (object)$"Category name: {myProduct.Category}");
         }
     }
 }
