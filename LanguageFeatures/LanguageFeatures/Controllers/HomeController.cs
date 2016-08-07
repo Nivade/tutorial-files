@@ -272,11 +272,19 @@ namespace LanguageFeatures.Controllers
                     match.Price
                 };
 
+            foundProducts = products.OrderByDescending(e => e.Price).Take(3).Select(e => new
+            {
+                e.Name,
+                e.Price
+            });
+
+            var results = products.Sum(e => e.Price);
+
             int count = 0;
             StringBuilder result = new StringBuilder();
             foreach (var p in foundProducts)
             {
-                result.AppendFormat("Price: {0}", p.Price);
+                result.AppendFormat("Sum: {0}", result);
                 if (++count == 3)
                     break;
             }
