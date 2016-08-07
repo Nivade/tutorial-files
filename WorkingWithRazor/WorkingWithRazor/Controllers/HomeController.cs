@@ -32,5 +32,17 @@ namespace WorkingWithRazor.Controllers
         {
             return View(myProduct);
         }
+
+
+
+        public ActionResult DemoExpression()
+        {
+            ViewBag.ProductCount = 1;
+            ViewBag.ExpressShip = true;
+            ViewBag.ApplyDiscount = true;
+            ViewBag.Supplier = null;
+
+            return View(myProduct);
+        }
     }
 }
