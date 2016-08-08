@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,8 +8,14 @@ using SportsStore.Domain.Entities;
 
 namespace SportsStore.Domain.Concrete
 {
-    public class EFDbContext : DbContext
+    public class EFProductRepository
     {
-        public DbSet<Product> Products { get; set; }
+        private EFDbContext context = new EFDbContext();
+
+
+        public IEnumerable<Product> Products
+        {
+            get { return context.Products; }
+        }
     }
 }
