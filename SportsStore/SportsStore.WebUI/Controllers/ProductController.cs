@@ -12,6 +12,7 @@ namespace SportsStore.WebUI.Controllers
     {
 
         private IProductRepository productRepository;
+        public int PageSize = 4;
 
 
         public ProductController(IProductRepository productRepository)
@@ -21,9 +22,9 @@ namespace SportsStore.WebUI.Controllers
 
 
 
-        public ViewResult List()
+        public ViewResult List(int page = 1)
         {
-            return View(productRepository.Products);
+            return View(productRepository.Products.OrderBy(p => p.ProductID).Skip((page - 1) * PageSize).Take(PageSize));
         }
     }
 }
