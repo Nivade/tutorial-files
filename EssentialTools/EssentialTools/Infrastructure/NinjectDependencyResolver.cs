@@ -19,6 +19,7 @@ namespace EssentialTools.Infrastructure
         public NinjectDependencyResolver(IKernel kernel)
         {
             this.kernel = kernel;
+            AddBindings();
         }
 
 
