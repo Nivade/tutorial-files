@@ -48,7 +48,7 @@ namespace SportsStore.WebUI.Infrastructure
 
         private void AddBindings()
         {
-            Mock<IProductsRepository> mock = new Mock<IProductsRepository>();
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
 
             mock.Setup(m => m.Products).Returns(new List<Product>
             {
@@ -69,7 +69,7 @@ namespace SportsStore.WebUI.Infrastructure
                 },
             });
 
-            kernel.Bind<IProductsRepository>().ToConstant(mock.Object);
+            kernel.Bind<IProductRepository>().ToConstant(mock.Object);
         }
 
     }
