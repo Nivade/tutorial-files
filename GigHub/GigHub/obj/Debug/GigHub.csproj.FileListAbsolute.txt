@@ -87,3 +87,10 @@ C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.Overrid
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGenresTable.resources
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForeignKeyPropertiesToGig.resources
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNameToApplicationUser.resources
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddAttendance.resources
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Net.Http.Formatting.dll
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.dll
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.WebHost.dll
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Net.Http.Formatting.xml
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.xml
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
