@@ -86,3 +86,4 @@ C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateG
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConventionsForGigsAndGenres.resources
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGenresTable.resources
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForeignKeyPropertiesToGig.resources
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNameToApplicationUser.resources
