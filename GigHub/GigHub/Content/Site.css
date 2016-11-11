@@ -28,6 +28,10 @@ span.field-validation-error {
     font-weight: bold;
 }
 
+.voffset { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset3 { margin-top: 20px; }
+
 /* Bootstrap Overrides */
 
 .navbar-inverse {
@@ -35,31 +39,31 @@ span.field-validation-error {
     border-color: #ff4342;
 }
 
-    .navbar-inverse .navbar-nav > li > a {
-        color: #ffffff;
-    }
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
 
-    .navbar-inverse .navbar-brand {
-        color: #ffffff;
-    }
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
 
-    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-        background-color: #cd2827;
-        background-color: rgba(205, 40, 39, 0.55);
-    }
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #cd2827;
+    background-color: rgba(205, 40, 39, 0.55);
+}
 
-    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-        background-color: #ff4342;
-    }
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #ff4342;
+}
 
-    .navbar-inverse .navbar-toggle {
-        border-color: #ffffff;
-    }
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+}
 
-    .navbar-inverse .navbar-nav > .dropdown > a .caret {
-        border-top-color: #ffffff;
-        border-bottom-color: #ffffff;
-    }
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
 
 .navbar-brand {
     font-weight: 700;

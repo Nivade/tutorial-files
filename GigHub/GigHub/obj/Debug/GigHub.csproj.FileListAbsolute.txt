@@ -94,3 +94,4 @@ C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.WebHost.dll
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Net.Http.Formatting.xml
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.xml
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddFollowing.resources
