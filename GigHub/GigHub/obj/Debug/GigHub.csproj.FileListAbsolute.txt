@@ -96,3 +96,6 @@ C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.xml
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddFollowing.resources
 C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToGig.resources
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\AutoMapper.dll
+C:\xampp\htdocs\tutorial-files\GigHub\GigHub\bin\AutoMapper.xml

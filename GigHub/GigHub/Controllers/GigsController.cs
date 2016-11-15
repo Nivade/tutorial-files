@@ -46,7 +46,9 @@ namespace GigHub.Controllers
         public ActionResult Edit(int id)
         {
             var userId = User.Identity.GetUserId();
-            var gig = context.Gigs.Single(g => g.Id == id && g.ArtistId == userId);
+
+            var gig = context.Gigs
+                .Single(g => g.Id == id && g.ArtistId == userId);
 
             var viewModel = new GigFormViewModel
             {
@@ -102,15 +104,22 @@ namespace GigHub.Controllers
             }
 
             var userId = User.Identity.GetUserId();
-            var gig = context.Gigs.Single(g => g.Id == model.Id && g.ArtistId == userId);
+            var gig = context.Gigs
+                .Include(g => g.Attendances.Select(a => a.Attendee))
+                .Single(g => g.Id == model.Id && g.ArtistId == userId);
 
-            gig.Venue = model.Venue;
-            gig.DateTime = model.GetDateTime();
-            gig.GenreId = model.Genre;
+            gig.Modify(model.GetDateTime(), model.Venue, model.Genre);
             
             context.SaveChanges();
 
             return RedirectToAction("Mine", "Gigs");
+        }
+
+
+        [HttpPost]
+        public ActionResult Search(GigsViewModel model)
+        {
+            return RedirectToAction("Index", "Home", new { query = model.SearchTerm });
         }
 
 
